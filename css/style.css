@@ -522,3 +522,82 @@ a{
 /* .Products .prodcuts-items .prodcuts-item .product-img .product-info .stars li:hover{
     color: yellow;
 } */
+/* ---------------------------footer--------------------------- */
+.footer{
+    background-color: gray;
+}
+
+.footer .l-logo{
+    padding:35px 0px 5px 0px;
+}
+
+.footer .l-logo img{
+    width: 200px;
+    height: 80px;
+}
+
+
+.footer .logoo i{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    margin-right: 15px;
+    margin-bottom: 60px;
+}
+
+.footer .logoo i:hover{
+    color: #7b5244;
+    font-size: 20px;
+}
+
+.footer .content{
+    height: 200px;
+}
+
+.footer .help,
+.footer .explore,
+.footer .contact,
+.footer .account{
+    float: left;
+    width: 20%;
+}
+
+.footer .account{
+    margin-left: 50px;
+}
+
+.footer h3{
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.footer ul li{
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.footer ul li:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.footer .privacy{
+    display: block;
+    color: rgb(238, 237, 237);
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.footer .COPYRIGHT{
+    text-transform: capitalize;
+    color: white;
+}
